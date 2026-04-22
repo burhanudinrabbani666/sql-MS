@@ -10,6 +10,21 @@
       "name": "Summary_psql",
       "username": "root",
       "database": "my_events"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MariaDB",
+      "name": "maria_db",
+      "database": "my_events",
+      "username": "root",
+      "askForPassword": true
     }
   ]
 }
